@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #222222;
+}
+
+.logo {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+.footer {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: darkblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about {
+  background-color: red;
+}
+
+@media (max-width: 799px) {
+  .about {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .about {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.contact {
+  background-color: yellow;
+}
+
+@media (max-width: 799px) {
+  .contact {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.copy {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copy a {
+  text-decoration: none;
+  color: black;
+}
+
+.copy a:hover {
+  cursor: pointer;
+  color: aquamarine;
+}
+
+.about, .contact {
+  padding: 20px;
+}
+
+@media (min-width: 200px) {
+  .about, .contact {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .about, .contact {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .about, .contact {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .about, .contact {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about, .contact {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .about, .contact {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .about, .contact {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 200px) {
+  .copy {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .copy {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .copy {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .copy {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .copy {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .copy {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .copy {
+    font-size: 1.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
