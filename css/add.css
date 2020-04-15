@@ -1,0 +1,101 @@
+.begin {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 150px;
+  background-color: yellow;
+}
+
+.adv {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.status {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.status--header {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.status--mech {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 200px;
+  background-color: blue;
+}
+
+.adv--box {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.adv--box-article1 {
+  height: 200px;
+  background-color: red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 799px) {
+  .adv--box-article1 {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+  }
+}
+
+@media (min-width: 800px) {
+  .adv--box-article1 {
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .adv--box-article1 {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
+}
+
+.end {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+/*# sourceMappingURL=add.css.map */

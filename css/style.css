@@ -10,6 +10,7 @@
 
 .wrapper {
   width: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,14 +22,144 @@
 .logo {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 500px;
-  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logo--starter {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo--starter img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo--starter-photo {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.logo--starter-text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.logo--option {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.logo--option-choose {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.logo--option-choose--photo {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 75%;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo--option-choose--photo img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo--option-choose--header {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 25%;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo--option-choose--header a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.logo--option-choose--header a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  background-color: darkblue;
+  background-color: #222222;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,6 +202,7 @@
   .contact {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
+    min-height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -98,12 +230,12 @@
 
 .copy a {
   text-decoration: none;
-  color: black;
+  color: aquamarine;
 }
 
 .copy a:hover {
   cursor: pointer;
-  color: aquamarine;
+  color: #007f54;
 }
 
 .about, .contact {
@@ -153,43 +285,43 @@
 }
 
 @media (min-width: 200px) {
-  .copy {
+  .copy, .status {
     font-size: 0.6rem;
   }
 }
 
 @media (min-width: 300px) {
-  .copy {
+  .copy, .status {
     font-size: 0.9rem;
   }
 }
 
 @media (min-width: 600px) {
-  .copy {
+  .copy, .status {
     font-size: 1.1rem;
   }
 }
 
 @media (min-width: 800px) {
-  .copy {
+  .copy, .status {
     font-size: 1.3rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .copy {
+  .copy, .status {
     font-size: 1.4rem;
   }
 }
 
 @media (min-width: 1800px) {
-  .copy {
+  .copy, .status {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 2000px) {
-  .copy {
+  .copy, .status {
     font-size: 1.6rem;
   }
 }
